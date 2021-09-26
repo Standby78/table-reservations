@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.DayPicker {
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: #ceb5a8;
+    margin-bottom: 1rem;
+}
+
+.DayPicker-Weekday {
+    color: black !important;
+}
+
+.DayPicker-NavButton--next,
+.DayPicker-NavButton--prev {
+    filter: drop-shadow(1px 2px 2px black) brightness(0.5);
+}
+.DayPicker-Day--disabled {
+    opacity: 0.5;
+}
+
+.DayPicker-Day--today {
+    color: white !important;
+    opacity: 1;
+    background-color: #e7cec0;
+}
+
+.DayPicker-Day--selected {
+    background-color: #e2a24a !important;
+    border-radius: 0 !important;
+}
+
+.DayPicker-Day--start {
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+}
+
+.DayPicker-Day--end {
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+}
