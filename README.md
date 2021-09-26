@@ -1,4 +1,4 @@
-#Table reservations
+# Table reservations
 
 A simple React app created with create-react-app.
 
